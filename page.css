@@ -1,0 +1,113 @@
+.text_onpage .White_title1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #E6E6E6;
+
+}
+
+.text_onpage .White_title{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+    font-weight: bold;
+    color: #d5dee7;
+    margin-top: 10px;
+}
+
+.box {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #24252b;
+    padding: 2px;
+    width: 370px;
+    height: 150px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    margin-top: 40px;
+} 
+.box .wd{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    color: #000000;
+    background-color: #fdfeff;
+    text-decoration: none;
+    width: 320px;
+    padding: 15px 20px;
+    font-size: 20px;
+    font-weight: 550;
+    border-radius: 12px;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    white-space: nowrap;
+}
+
+.box .White_title{
+    color: #edf6ff;
+    font-size: 14px;
+    gap: 1px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 12px;
+    white-space: nowrap;  
+    padding: 5px 
+}
+
+.box .White_title3{
+    color: #edf6ff;
+    font-size: 14px;
+    gap: 1px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 10px;
+    white-space: nowrap; 
+    padding: 5px  
+}
+
+#hero-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.text_onpage .section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 48px;
+    margin-top: 100px;
+    margin-left: 100px;
+    font-size: 20px;
+    width: 300px;
+}
+
+.text_onpage .agent_text{
+    font-size: 16px;
+    margin-left: 0px;
+    color: #C5DFFF;
+   font-weight: 600;
+    line-height: 2;
+    width: 350px;
+}
+
+.text_onpage .agent_link{
+    color: #0a78ff;
+    font-size: 16px;
+ 
+}
+
+.text_onpage .agent_visual{
+    display: flex;
+
+}

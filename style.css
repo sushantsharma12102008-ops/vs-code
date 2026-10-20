@@ -1,0 +1,112 @@
+body {
+    background:
+        linear-gradient(to bottom, transparent 5%, #0e1019 30%),
+        url("images/bg.jpg") no-repeat center top;
+
+    background-size: 100% auto, 100% auto;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-color: #0e1019;
+   color: #E6E6E6;
+    font-family: sans-serif;
+    margin: 0;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 3px;
+    background-color: #0e1019;
+    border-bottom: 0.25px solid #2B2B2B;
+}
+
+.brand_container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 5px;
+    margin-right:  20px;
+    margin-left: 20px;
+
+}
+
+#vs-code-logo {
+    white-space: nowrap;
+}
+
+.nav_buttons {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    position: relative;
+    flex-shrink: 0;
+}
+
+.navbar a {
+    color: #E6E6E6;
+    text-decoration: none;
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+    width: 300%;
+}
+
+.dropdown {
+    position: absolute;
+    display: none;
+}
+
+.nav_buttons:hover .dropdown {
+    display: block;
+    background-color: #0e1019;
+    padding: 10px;
+    border-radius: 5px;
+    top: 100%;
+    left: 0;
+    width: 300%;
+}
+
+.nav_buttons button {
+    background-color: #0e1019;
+    color: #E6E6E6;
+    border: none;
+    padding: 3px;
+    size: 5px;
+    gap: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.action_buttons {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    margin-right: 20px;
+    margin-left: 180px
+
+}
+
+.action_buttons button {
+    background-color: #0e1019;
+    color: #E6E6E6;
+    border: none;
+    padding: 3px;
+    size: 5px;
+    gap: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.action_buttons .blue_download {
+    background-color: #0078D7;
+    color: #E6E6E6;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    size: 5px;
+    gap: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+}
