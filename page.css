@@ -111,3 +111,44 @@
     display: flex;
 
 }
+
+.section_three{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 90%;
+    max-width: 1500px;
+    margin: 100px auto 0;
+    padding: 0 30px;
+    box-sizing: border-box;
+    gap: 50px;
+}
+
+.section_three .box_three{
+    background-color: #16191D;
+    border: 1px solid #333539;
+    padding: 20px;
+    width: 370px;
+    height: 450px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    margin-top: 40px;
+    box-sizing: border-box;
+    flex: 1;
+    min-width: 0;
+}
+
+.section_three .box_three .agent_text{
+    font-size: 15px;
+    margin-left: 0px;
+    color: #adc5e1;
+   font-weight: 600;
+    line-height: 1.5;
+    width: 300px;
+}
+
+.section_three .box_three .agent_link{
+    color: #5ca6ff;
+    font-size: 16px;
+ 
+}
